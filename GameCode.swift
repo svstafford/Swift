@@ -33,7 +33,9 @@ func setup() {
     
     circle.hasPhysics = true
     
+    // Add a barrier to the scene.
     barrier.position = Point(x: 200, y: 150)
     barrier.hasPhysics = true
     scene.add(barrier)
+    barrier.isImmobile = true
 }
